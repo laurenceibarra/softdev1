@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* customize the main 
+    1. occupies the whole screen*/
+main{
+    min-height: 100vh;
+    background-color: #262600;
+}
