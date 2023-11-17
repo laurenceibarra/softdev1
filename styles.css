@@ -2,11 +2,26 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    background: #1D1E19;
 }
 
 /* customize the main 
     1. occupies the whole screen*/
+
+    /* let this be our flexbox container */
 main{
     min-height: 100vh;
-    background-color: #262600;
+    background: #1D1E19;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.window{
+    display: flex;
+    background-color: #3B3C35;
+    width: 1184px;
+    height: 840px;
+    border-radius: 16px;
+    
 }
