@@ -3,8 +3,12 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Roboto', monospace;
+    background-color: rgba(59, 60, 53, 0);
 }
-
+html{
+    scroll-behavior: smooth;
+    background-color: #1D1E19;
+}
 /* customize the main 
     1. occupies the whole screen*/
 
@@ -14,8 +18,10 @@ main{
     background: #1D1E19;
     /* god code */
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 /* container */
@@ -26,6 +32,7 @@ main{
     height: 840px;
     border-radius: 16px;
     flex-direction: column; /* Make the content stack vertically */
+    margin-top: 66px;
 
 }
 
@@ -63,21 +70,41 @@ main{
     
 }
 
+.quote{
+    color: #B9BCAB;
+    font-size: 20px;
+    margin-top: 16px;
+}
+
 .typingsvg{
     margin-left: 172px;
 }
+
+.githublink{
+    margin-left: 172px;
+    margin-top: 20px;
+    color: #FFF;
+    font-size: 20px;
+    text-decoration: none;
+}
+.equals {
+    color: #E81123;
+}
+
+.url{
+    color: #E6CD4A;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
 .windowfooter{
     display: flex;
-    align-self: flex-end;
-    justify-self: flex-end;
-    background-color: #3B3C35;
-    margin-top: 265px;
-    margin-bottom: 90px;
-    bottom: 0;
     width: 1183px;
     height: 20px;
     justify-content: flex-end;
-    position: fixed;
+    margin-top: 100px;
+
 }
 
 .circle{
@@ -123,4 +150,17 @@ main{
     margin-left: 30px;
     margin-top: 22px;
     margin-bottom: 21px;
+    background-color: #A8AD91;
+}
+
+.subwindow{
+    display: flex;
+    background-color: #272822;
+    width: 928px;
+    height: 944px;
+    border-radius: 16px;
+    flex-direction: column; /* Make the content stack vertically */
+    margin-top: 66px;
+    flex-shrink: 0;
+
 }
