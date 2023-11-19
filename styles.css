@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    background: #1D1E19;
+    font-family: 'Roboto', monospace;
 }
 
 /* customize the main 
@@ -32,6 +32,8 @@ main{
 .navbar{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
     width: 1183px;
     height: 75px;
     border-radius: 16px 16px 0px 0px;
@@ -41,22 +43,41 @@ main{
 .snippet{
     width: 928px;
     height: 275px;
-    fill: #272822;
+    background-color: #272822;
     align-self: center;
-    justify-self: center;
     margin-top: 70px;
     border-radius: 16px;
+    flex-shrink: 0;
+    
 }
 
+.content{
+    margin-left: 172px;
+}
+
+.title{
+
+    color: #FFF;
+    font-size: 50px;
+    margin-top: 33px;
+    
+}
+
+.typingsvg{
+    margin-left: 172px;
+}
 .windowfooter{
     display: flex;
     align-self: flex-end;
     justify-self: flex-end;
     background-color: #3B3C35;
-    margin-top: 370px;;
+    margin-top: 265px;
+    margin-bottom: 90px;
+    bottom: 0;
     width: 1183px;
     height: 20px;
     justify-content: flex-end;
+    position: fixed;
 }
 
 .circle{
@@ -87,4 +108,19 @@ main{
 .circle5{
     background-color: #6BE0FF;
     margin-right: 39px;
+}
+
+.navbar_title{
+    color: #262600;
+    font-family: 'Roboto', monospace;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 159px;
+    height: 32px;
+    flex-shrink: 0;
+    margin-left: 30px;
+    margin-top: 22px;
+    margin-bottom: 21px;
 }
