@@ -157,10 +157,12 @@ main{
     display: flex;
     background-color: #272822;
     width: 928px;
-    height: 944px;
+    height: 900px;
     border-radius: 16px;
     flex-direction: column; /* Make the content stack vertically */
     margin-top: 66px;
+    margin-bottom: 60px;
     flex-shrink: 0;
 
 }
+
