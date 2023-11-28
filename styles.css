@@ -57,7 +57,19 @@ main{
     flex-shrink: 0;
     
 }
-
+.snippet_title{
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 1097px;
+    height: 190px;
+    flex-shrink: 0;
+    margin-left: 30px;
+    margin-top: 22px;
+    margin-bottom: 21px;
+}
 .content{
     margin-left: 172px;
 }
